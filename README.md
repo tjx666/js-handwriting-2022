@@ -13,7 +13,7 @@
   - [ ] Promise A+ MyPromise
 - 高阶函数
   - [x] [debounce](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/debounce)
-  - [ ] throttle
+  - [x] [throttle](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/throttle)
   - [ ] once
   - [ ] memorize
   - [ ] curry

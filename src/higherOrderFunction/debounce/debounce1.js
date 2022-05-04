@@ -1,5 +1,5 @@
 /**
- * 基于时间戳比较
+ * 时间戳比较
  * @param {Function} fn
  * @param {number} delay
  * @param {boolean} leading

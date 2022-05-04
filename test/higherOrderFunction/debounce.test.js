@@ -6,7 +6,7 @@ import debounce2 from '../../src/higherOrderFunction/debounce/debounce2.js';
 [debounce1, debounce2].forEach((debounce, index) => {
     describe(`debounce${index + 1}`, () => {
         it('should run fn when first call if leading=true', async () => {
-            const start = Date.now();
+            // const start = Date.now();
             const fn = (...args) => {
                 // console.log('called at:', Date.now() - start, 'ms');
                 return args;
@@ -26,7 +26,7 @@ import debounce2 from '../../src/higherOrderFunction/debounce/debounce2.js';
         });
 
         it('should not run fn when first call if leading=false', async () => {
-            const start = Date.now();
+            // const start = Date.now();
             const fn = (...args) => {
                 // console.log('called at:', Date.now() - start, 'ms');
                 return args;
