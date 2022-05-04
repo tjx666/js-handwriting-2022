@@ -12,7 +12,7 @@
   - [x] [PromiseQueue](https://github.com/tjx666/js-handwriting-2022/blob/master/src/promise/promiseQueue.js)
   - [ ] Promise A+ MyPromise
 - 高阶函数
-  - [ ] debounce
+  - [x] [debounce](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/debounce)
   - [ ] throttle
   - [ ] once
   - [ ] memorize
