@@ -17,7 +17,7 @@
   - [x] [debounce](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/debounce)
   - [x] [throttle](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/throttle)
   - [x] once
-  - [ ] memorize
+  - [x] memoize
   - [ ] curry
 - 对象工具
   - [ ] 深克隆
