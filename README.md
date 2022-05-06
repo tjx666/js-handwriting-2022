@@ -16,9 +16,9 @@
 - 高阶函数
   - [x] [debounce](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/debounce)
   - [x] [throttle](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/throttle)
-  - [x] once
-  - [x] memoize
-  - [ ] curry
+  - [x] [once](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/once)
+  - [x] [memoize](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/memoize)
+  - [x] [curry](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/curry)
 - 对象工具
   - [ ] 深克隆
   - [ ] 结构化克隆
