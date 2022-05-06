@@ -16,7 +16,7 @@
 - 高阶函数
   - [x] [debounce](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/debounce)
   - [x] [throttle](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/throttle)
-  - [ ] once
+  - [x] once
   - [ ] memorize
   - [ ] curry
 - 对象工具
