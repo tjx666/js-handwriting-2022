@@ -1,4 +1,4 @@
-import { deepEqual } from 'assert';
+import { deepEqual, strictEqual } from 'assert';
 import { sleep } from '../testUtils/async.js';
 import debounce1 from '../../src/higherOrderFunction/debounce/debounce1.js';
 import debounce2 from '../../src/higherOrderFunction/debounce/debounce2.js';
@@ -43,5 +43,14 @@ import debounce2 from '../../src/higherOrderFunction/debounce/debounce2.js';
             await sleep(100);
             deepEqual(debouncedFn(240), [240]);
         });
-    }).timeout(2000)
+
+        it('should debounced fn support bind this', () => {
+            const fn = function () {
+                return this;
+            };
+            const debouncedFn = debounce(fn, 100, true);
+            const obj = { debouncedFn };
+            strictEqual(obj.debouncedFn(), obj);
+        });
+    }).timeout(2000);
 });

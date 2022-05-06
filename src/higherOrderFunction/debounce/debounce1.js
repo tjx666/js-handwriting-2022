@@ -14,13 +14,13 @@ function debounce(fn, delay, leading) {
         if (lastCalledTime === undefined) {
             lastCalledTime = now;
             if (leading) {
-                return fn(...args);
+                return fn.apply(this, args);
             }
         } else {
             const duration = now - lastCalledTime;
             if (duration >= delay) {
                 lastCalledTime = now;
-                return fn(...args);
+                return fn.apply(this, args);
             }
         }
     }

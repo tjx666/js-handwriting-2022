@@ -20,7 +20,7 @@ function debounce(fn, delay, leading) {
 
         if (!isLock) {
             isLock = true;
-            return fn(...args);
+            return fn.apply(this, args);
         }
     }
 

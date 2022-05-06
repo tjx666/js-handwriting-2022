@@ -29,6 +29,7 @@
   - [ ] Object.assign
   - [ ] JSON.stringify
   - [ ] JSON.parse
+- 异步执行代码
 
 ## 相关项目
 

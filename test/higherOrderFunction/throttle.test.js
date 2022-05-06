@@ -1,4 +1,4 @@
-import { deepEqual } from 'assert';
+import { deepEqual, strictEqual } from 'assert';
 import { sleep } from '../testUtils/async.js';
 import throttle1 from '../../src/higherOrderFunction/throttle/throttle1.js';
 import throttle2 from '../../src/higherOrderFunction/throttle/throttle2.js';
@@ -23,6 +23,15 @@ import throttle2 from '../../src/higherOrderFunction/throttle/throttle2.js';
             deepEqual(throttledFn(150), undefined);
             await sleep(50);
             deepEqual(throttledFn(200), [200]);
+        });
+
+        it('should throttled fn support bind this', () => {
+            const fn = function () {
+                return this;
+            };
+            const throttledFn = throttle(fn, 100, true);
+            const obj = { throttledFn };
+            strictEqual(obj.throttledFn(), obj);
         });
     });
 });

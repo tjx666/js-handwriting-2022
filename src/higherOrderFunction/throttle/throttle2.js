@@ -12,7 +12,7 @@ function throttle(fn, delay) {
             setTimeout(() => {
                 isLock = false;
             }, delay);
-            return fn(...args);
+            return fn.apply(this, args);
         }
     }
 

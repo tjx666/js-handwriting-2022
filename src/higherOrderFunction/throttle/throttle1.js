@@ -12,12 +12,12 @@ function throttle(fn, delay) {
 
         if (lastExecuteTime === undefined) {
             lastExecuteTime = now;
-            return fn(...args);
+            return fn.apply(this, args);
         } else {
             const duration = now - lastExecuteTime;
             if (duration >= delay) {
                 lastExecuteTime = now;
-                return fn(...args);
+                return fn.apply(this, args);
             }
         }
     }
