@@ -5,20 +5,15 @@
  * @returns {Function}
  */
 function curry(fn, argLength = fn.length) {
-    const cachedArgs = [];
-
-    function create(cacheArgs) {
-        return function (...args) {
-            const totalArgs = [...cacheArgs, ...args];
-            if (totalArgs.length >= argLength) {
-                return fn.apply(this, totalArgs);
-            } else {
-                return create(totalArgs);
-            }
-        };
-    }
-
-    return create(cachedArgs);
+    return function curried(...args) {
+        if (args.length >= argLength) {
+            return fn.apply(this, args);
+        } else {
+            return function _curried(..._args) {
+                return curried(...args, ..._args);
+            };
+        }
+    };
 }
 
 export default curry;
