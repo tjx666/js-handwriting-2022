@@ -20,15 +20,18 @@
   - [x] [memoize](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/memoize)
   - [x] [curry](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/curry)
 - 对象工具
-  - [ ] 深克隆
-  - [ ] 结构化克隆
+  - [ ] defaultsDeep
+  - [ ] Object.create
+  - [ ] Object.assign
   - [ ] omit
   - [ ] pick
+  - [ ] merge
   - [ ] getIn
   - [ ] setIn
-  - [ ] Object.assign
   - [ ] JSON.stringify
   - [ ] JSON.parse
+  - [ ] 深克隆
+  - [ ] 结构化克隆
 - 异步执行代码
 
 ## 相关项目
