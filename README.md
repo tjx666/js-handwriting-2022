@@ -20,12 +20,12 @@
   - [x] [memoize](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/memoize)
   - [x] [curry](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/curry)
 - 对象工具
-  - [x] [defaultsDeep](<(https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/defaultsDeep)>)
-  - [x] [Object.create](<(https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/createObject)>)
-  - [ ] Object.assign
+  - [x] [defaultsDeep](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/defaultsDeep)
+  - [x] [Object.create](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/createObject)
+  - [x] [Object.assign](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/objectAssign)
+  - [ ] merge
   - [ ] omit
   - [ ] pick
-  - [ ] merge
   - [ ] getIn
   - [ ] setIn
   - [ ] JSON.stringify
