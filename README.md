@@ -20,8 +20,8 @@
   - [x] [memoize](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/memoize)
   - [x] [curry](https://github.com/tjx666/js-handwriting-2022/blob/master/src/higherOrderFunction/curry)
 - 对象工具
-  - [ ] defaultsDeep
-  - [ ] Object.create
+  - [x] [defaultsDeep](<(https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/defaultsDeep)>)
+  - [x] [Object.create](<(https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/createObject)>)
   - [ ] Object.assign
   - [ ] omit
   - [ ] pick
@@ -32,6 +32,7 @@
   - [ ] JSON.parse
   - [ ] 深克隆
   - [ ] 结构化克隆
+  - [ ] nodejs assert.deepStrictEqual
 - 异步执行代码
 
 ## 相关项目
