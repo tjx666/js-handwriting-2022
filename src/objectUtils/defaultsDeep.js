@@ -1,8 +1,4 @@
-import assert from 'assert';
-
-function isPureObject(value) {
-    return Object.prototype.toString.call(value) === '[object Object]';
-}
+import { isPureObject } from './utils.js';
 
 function _defaultsDeep(object, source) {
     if (!isPureObject(object) || !isPureObject(source)) {

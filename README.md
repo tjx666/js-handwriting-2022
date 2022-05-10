@@ -23,7 +23,7 @@
   - [x] [defaultsDeep](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/defaultsDeep.js)
   - [x] [Object.create](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/createObject.js)
   - [x] [Object.assign](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/objectAssign.js)
-  - [ ] merge
+  - [ ] [merge](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/merge.js)
   - [ ] omit
   - [ ] pick
   - [ ] getIn

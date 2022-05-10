@@ -1,5 +1,5 @@
 /**
- * @see [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign MDN Object.assign}
  * @param {Object} target
  * @param  {Object[]} sources
  * @returns {Object}
