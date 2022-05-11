@@ -23,11 +23,11 @@
   - [x] [defaultsDeep](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/defaultsDeep.js)
   - [x] [Object.create](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/createObject.js)
   - [x] [Object.assign](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/objectAssign.js)
-  - [ ] [merge](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/merge.js)
+  - [x] [merge](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/merge.js)
+  - [x] [lodash get](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/getIn.js)
+  - [ ] lodash set
   - [ ] omit
   - [ ] pick
-  - [ ] getIn
-  - [ ] setIn
   - [ ] JSON.stringify
   - [ ] JSON.parse
   - [ ] 深克隆
