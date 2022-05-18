@@ -25,7 +25,7 @@
   - [x] [Object.assign](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/objectAssign.js)
   - [x] [merge](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/merge.js)
   - [x] [lodash get](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/getIn.js)
-  - [ ] lodash set
+  - [x] [lodash set](https://github.com/tjx666/js-handwriting-2022/blob/master/src/objectUtils/setIn.js)
   - [ ] omit
   - [ ] pick
   - [ ] JSON.stringify

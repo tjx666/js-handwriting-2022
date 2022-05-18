@@ -1,4 +1,15 @@
 /**
+ * @param {string} propPathStr
+ * @return {string[]}
+ */
+export function parsePropPathStrToArray(propPathStr) {
+    return propPathStr
+        .replaceAll(/^\[([^\r\n]*?)\]/g, '$1')
+        .replaceAll(/\[([^\r\n]*?)\]/g, '.$1')
+        .split('.');
+}
+
+/**
  * lodash get
  * @param {Object} object
  * @param {string | Array<string|number>} path
@@ -14,10 +25,7 @@ function getIn(object, path, defaultValue) {
         propPath = path;
     } else {
         // 特殊情况例如：'[1].b'，所以字符串头部的中括号需要特殊处理
-        propPath = path
-            .replaceAll(/^\[([^\r\n]*?)\]/g, '$1')
-            .replaceAll(/\[([^\r\n]*?)\]/g, '.$1')
-            .split('.');
+        propPath = parsePropPathStrToArray(path);
     }
 
     let value = object;
